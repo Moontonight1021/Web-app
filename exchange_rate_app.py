@@ -7,7 +7,7 @@ import requests
 import re
 
 #app title
-st.title('Currency Exchange Tool')
+st.title('Realtime Currency Exchange Tool')
 
 currency_name_df = pd.read_csv('physical_currency_list.csv')
 currency_codes = list(currency_name_df["currency code"])
