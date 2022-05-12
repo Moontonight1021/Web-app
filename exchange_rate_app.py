@@ -39,6 +39,7 @@ else:
     
     rate = list(df['Realtime Currency Exchange Rate.5. Exchange Rate'])
 
+# calculators for transferring between two currencies
     st.title("Converting between currencies")
     source_value1 = st.number_input(source_currency,min_value = 0)
     target_value1 = float(rate[0]) * float(source_value1)
